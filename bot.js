@@ -385,7 +385,7 @@ function play(guild, song) {
 
 }
 
-const adminprefix = "H";
+const adminprefix = "=";
 const devs = ['234454368072630283', '403312268223447040'];
 
 client.on('message', message => {
@@ -417,17 +417,17 @@ client.on("message", message => {
      💪「أوامر بوت الاغاني」🎵
  
 .    
-     Hp
+     =p
      امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
-     Hskip
+     =skip
      تغير الأغنية
-     Hpause
+     =pause
      ايقاف الأغنية
-     Hresume
+     =resume
      مواصلة الأغنية
-     Hvol
-   لتغيير درجه الصوت 1-100
-     Hstop
+     =vol
+   لتغيير درجه الصوت 1-9
+     =stop
      خروج البوت من الروم
 
 ❤══════════❤════════════❤ 
@@ -444,7 +444,7 @@ client.user.setPresence({
   status: 'online', //الحال
   game: {
      type: 0,
-     name: 'Pirates.🔥|Hhelp',    
+     name: 'Pirates.🔥|=help',    
      details: `🎈r-help🎈`,  
      url: 'http://twitch.tv/Streammingg',
      state: `.`,
